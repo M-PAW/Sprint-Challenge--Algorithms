@@ -13,6 +13,11 @@ c)
 
 ## Exercise II
 
+1. Divide the maximum number of floor by two, this should be the middle floor. Go to this floor and drop an egg. If it breaks then take the middle floor and divide it by two, this become the new middle of our binary search. Repeat this process until the egg lands without breaking. Once found, check n+1, the next floor to confirm that you are on the edge of f (the eggs limit). Some people will say this is impractical to do in real life, but if a scientist will go to any bounds for an experiment, why shouldn't a software developer!
+
+
+2. At best this solution is O(log n), and at worst I have a syntax error and it will take an hour.
+
 
 
 
